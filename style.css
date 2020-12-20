@@ -1,0 +1,296 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 70rem;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255,168,25 ,0.7) ,rgba(255,255,255,0.3), rgba(0,168,122)),  url('img6.jpg');
+  background-size: 100% 100%;
+  position:relative;
+  clip-path: polygon(100% 0%, 100% 75% , 50% 100%, 0 75% ,0 0 );
+  color: white;
+
+}
+
+
+
+.titlea{
+  padding-top: 400px;
+}
+
+.titlea h1 {
+  text-decoration: uppercase;
+  text-align: center;
+  font-size: 70px;
+  
+  }
+
+.titlea  h4 {
+  text-decoration: uppercase;
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.footer{
+  background-color: rgba(0,0,0,0.9);
+  height: 55vh;
+}
+
+.bc{
+  background-color: dodgerblue;
+  clip-path: polygon(100% 0%, 100% 75% , 50% 100%, 0 75% ,0% 78% );
+width: 100%;
+height: 500px;
+}
+
+.bt h4{
+  left: 200px;
+}
+
+.fa-3x{
+  float:  right;
+   padding-right: 20px;
+}
+
+.copy{
+  float: left;
+  padding-left: 20px;
+}
+
+.bc2{
+  background-color: orange;
+ clip-path: polygon(70% 50%, 100% 50% , 100% 100%, 0 75% ,0% 78% );
+width: 100%;
+height: 500px;
+}
+
+.card-con:hover{
+transform: translateY(25px);
+}
+
+
+.card-con{
+  transform-style: preserve-3d;
+  height: 30vh;
+  width: 20rem ;
+  border-radius: 30px !important;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+.card-con i{
+color: dodgerblue;
+padding-top: 10px;
+}
+
+
+
+
+.container {
+ perspective: 1500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+
+  transform-style: preserve-3d;
+  min-height: 94vh;
+  width: 50rem ;
+  border-radius: 30px !important;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img{
+width: 200px;
+}
+
+.nav-link{
+  color: black;
+  font-size: 20px;
+}
+
+.inner-items{
+  background-color: black;
+}
+
+.nav-link:hover{
+  color: white;
+  background-color: black;
+}
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sneaker img {
+  width: 25rem;
+  z-index: 5;
+  transition: all 0.75s ease-out;
+}
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(
+    to right,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 98;
+  border: none;
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+#myBtn:hover {
+  background-color: green;
+}
+
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+.sizes button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+}
+button.active {
+  background: #585858;
+  color: white;
+}
+.purchase {
+  margin-top: 5rem;
+  transition: all 0.75s ease-out;
+}
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;}
+
+
+
+
+.card2 {
+  background-color: white;
+   transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 32rem ;
+  border-radius: 30px !important;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.sneaker2 {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sneaker2 img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+.circle2 {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(
+    to right,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info2 h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+.info2 h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+.sizes2 {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+.sizes2 button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+}
+button.active2 {
+  background: #585858;
+  color: white;
+}
+.purchase2 {
+  margin-top: 5rem;
+  transition: all 0.75s ease-out;
+}
+.purchase2 button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
